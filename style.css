@@ -648,3 +648,47 @@ footer {
         line-height: 1.2rem;
     }
 }
+
+@media (max-width: 485px){
+    .conhecimentos {
+        display: grid;
+        word-spacing: 4px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 35rem);
+        gap: .2rem;
+        padding: 1rem;
+        }
+
+        .footer-content {
+
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .footer-content > p {
+            font-family: var(--fonte2);
+            color: #a7a7a7;
+            font-size: 1rem;
+        }   
+
+        .btn {
+            background: #6a3093;
+            background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+            background: linear-gradient(to right, #a044ff, #6a3093);
+            border: none;
+            border-radius: .5rem;
+            box-shadow: .1rem .1rem .8rem rgba(0, 0, 0, 0.7);
+            cursor: pointer;
+        }
+        
+        .card-info > button {
+        
+            font-family: var(--fonte4);
+            font-size: 1rem;
+            font-weight: normal;
+            color: white;
+            width: 4rem;
+            height: 2rem;
+            
+        }
+}
